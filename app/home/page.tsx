@@ -3,16 +3,32 @@ import Navbar from "@/components/Navbar";
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowUpRight } from "react-feather";
+// import Intro from "@/components/Intro";
+import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
-import Intro from "@/components/Intro";
-import { useState } from "react";
+
+let introPlayed = false;
 
 const Home = () => {
+  // const [showIntro, setShowIntro] = useState(false);
   const router = useRouter();
-  const [showIntro, setShowIntro] = useState(true);
+
+  // useEffect(() => {
+  //   if (!introPlayed) {
+  //     setShowIntro(true);
+  //     // introPlayed = true;
+  //   }
+  // }, []);
   return (
     <>
-      {showIntro && <Intro onFinish={() => setShowIntro(false)} />}
+      {/* {showIntro && (
+        <Intro
+          onFinish={() => {
+            introPlayed = true;
+            setShowIntro(false);
+          }}
+        />
+      )} */}
       <div className="w-full min-h-screen bg-white">
         <Navbar />
         <section className="w-full flex flex-col items-center justify-center gap-4 pb-4 pt-28">

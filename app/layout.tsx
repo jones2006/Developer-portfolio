@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { IBM_Plex_Sans, Space_Grotesk } from "next/font/google";
 import "./globals.css";
+import IntroWrapper from "@/components/IntroWrapper";
 
 export const metadata: Metadata = {
   title: "Jones | UI/UX Designer & Developer",
@@ -33,7 +34,7 @@ export default function RootLayout({
       <body
         className={`${ibmPlex.variable} ${spaceGrotesk.variable} antialiased`}
       >
-        {children}
+       <IntroWrapper>{children}</IntroWrapper>
       </body>
     </html>
   );
