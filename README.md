@@ -63,6 +63,7 @@ npm install
 npm run dev
 ```
 
+## ✨ preview of the site
 <div align="center">
 <img alt="Home page" src="/public/demo/Portfolio Home.png" />
 <img alt="About page" src="/public/demo/Portfolio About.png" />
