@@ -20,12 +20,23 @@ export default function Intro({ onFinish }: { onFinish: () => void }) {
 
           {/* Center Logo */}
           <div
-            className="absolute inset-0 flex items-center justify-center  cursor-pointer"
-            // onClick={() => setClicked(true)}
+            className="absolute inset-0 flex flex-col gap-2 items-center justify-center  cursor-pointer"
+            onClick={() => setClicked(true)}
             // @ts-ignore
             onTap={() => setClicked(true)}
           >
-           
+            <Image
+              src="/icons/Click here.svg"
+              alt="no image"
+              width={120}
+              height={120}
+            />
+            <Image
+              src="/icons/arrow.svg"
+              alt="no image"
+              width={20}
+              height={20}
+            />
             <motion.img
               src="/icons/circle.png"
               alt="logo"
