@@ -1,4 +1,4 @@
-# 🌐 Jones (My) Portfolio
+# 🌐 Jones Portfolio
 
 Welcome to my personal portfolio website 🚀  
 This project showcases my skills, projects, and journey as a UI/UX Designer and App Developer.
