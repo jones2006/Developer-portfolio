@@ -35,7 +35,10 @@ const Navbar = () => {
           onClick={() => setMenuOpen(false)}
           href="/Projects"
         />
-        <button className="bg-[#F2E961] border-b-4 border-r-2 border-black w-24 h-10 rounded-full">
+        <button
+          className="bg-[#F2E961] border-b-4 border-r-2 border-black w-24 h-10 rounded-full"
+          aria-label="redirect Contact"
+        >
           <Link href="/Contact" className="ibm font-bold text-sm">
             Contact
           </Link>
@@ -46,6 +49,7 @@ const Navbar = () => {
       <button
         className="md:hidden text-2xl"
         onClick={() => setMenuOpen(!menuOpen)}
+        aria-label="navbar"
       >
         <Image
           src={menuOpen ? "/icons/close.svg" : "/icons/menu.svg"}
@@ -90,6 +94,7 @@ const Navbar = () => {
 
         <button
           className="bg-[#F2E961] border-b-4 border-r-2 border-black w-36 h-10 rounded-full"
+          aria-label="navbar open"
           onClick={() => setMenuOpen(false)}
         >
           <Link href="/Contact" className="ibm font-bold text-sm">

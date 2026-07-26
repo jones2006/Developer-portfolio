@@ -23,7 +23,7 @@ const Skills = () => {
                 width={15}
                 height={20}
                 src="/icons/figma.svg"
-                alt="no image"
+                alt="figma image"
                 className="lg:w-7 lg:h-7"
               />
             </div>
@@ -35,7 +35,7 @@ const Skills = () => {
                 width={25}
                 height={25}
                 src="/icons/spline.svg"
-                alt="no image"
+                alt="spline image"
               />
             </div>
             <div
@@ -46,7 +46,7 @@ const Skills = () => {
                 width={30}
                 height={20}
                 src="/icons/ps.webp"
-                alt="no image"
+                alt="ps image"
               />
             </div>
           </div>
@@ -67,7 +67,7 @@ const Skills = () => {
                 width={35}
                 height={35}
                 src="/icons/html.svg"
-                alt="no image"
+                alt="html image"
               />
             </div>
             <div
@@ -78,7 +78,7 @@ const Skills = () => {
                 width={30}
                 height={30}
                 src="/icons/css.svg"
-                alt="no image"
+                alt="css image"
               />
             </div>
             <div
@@ -89,7 +89,7 @@ const Skills = () => {
                 width={30}
                 height={30}
                 src="/icons/tcss.svg"
-                alt="no image"
+                alt="tcss image"
               />
             </div>
             <div
@@ -100,7 +100,7 @@ const Skills = () => {
                 width={40}
                 height={40}
                 src="/icons/react.svg"
-                alt="no image"
+                alt="react image"
               />
             </div>
           </div>
@@ -122,7 +122,7 @@ const Skills = () => {
                 width={40}
                 height={40}
                 src="/icons/react.svg"
-                alt="no image"
+                alt="react image"
               />
             </div>
             <div
@@ -151,7 +151,7 @@ const Skills = () => {
                 width={60}
                 height={60}
                 src="/icons/python.webp"
-                alt="no image"
+                alt="python image"
                 className="transition-transform duration-2000 ease-in-out 
                 hover-[transform:rotateZ(360deg)]"
               />
@@ -161,7 +161,7 @@ const Skills = () => {
                 width={45}
                 height={45}
                 src="/icons/flask.svg"
-                alt="no image"
+                alt="flask image"
                 className="transition-transform duration-2000 ease-in-out 
                 hover-[transform:rotateZ(360deg)]"
               />

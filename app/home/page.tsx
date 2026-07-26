@@ -33,19 +33,19 @@ const Home = () => {
         <Navbar />
         <section className="w-full flex flex-col items-center justify-center gap-4 pb-4 pt-28">
           <div className=" w-[90%] border-[6px] border-black bg-[#DECDFE] rounded-[3rem] flex flex-col items-center justify-around pb-8 gap-5 lg:w-[94%] lg:flex-row-reverse lg:px-32">
-            <div className="relative ">
+            <div className="relative">
               <Image
                 width={520}
                 height={520}
                 src="/icons/profile.webp"
-                alt="no image"
+                alt="profile image"
                 className="mr-4"
               />
               <Image
                 width={100}
                 height={100}
                 src="/icons/circle.webp"
-                alt="no image"
+                alt="circle image"
                 className="absolute right-5 bottom-0 mt-4 animate-spin [animation-duration:8s] z-0 cursor-pointer hover:scale-105 transition"
               />
             </div>
@@ -54,7 +54,7 @@ const Home = () => {
                 <Image
                   width={220}
                   height={220}
-                  alt="no svg"
+                  alt="text svg"
                   src="/icons/text.svg"
                   className="lg:w-72"
                 />
@@ -65,7 +65,10 @@ const Home = () => {
                 UI/UX DESIGNER & APP DEVELOPER I DESIGN BOLD INTERFACES & BUILD
                 REAL PRODUCTS
               </span>
-              <button className="bg-[#F2E961] border-b-4 border-r-2 border-black w-36 h-12 rounded-2xl hover:scale-105 transition">
+              <button
+                className="bg-[#F2E961] border-b-4 border-r-2 border-black w-36 h-12 rounded-2xl hover:scale-105 transition"
+                aria-label="redirect Contact"
+              >
                 <Link
                   href="/Contact"
                   className="ibm font-bold text-sm text-black"
@@ -80,12 +83,13 @@ const Home = () => {
               width={120}
               height={120}
               src="/icons/about.webp"
-              alt="no image"
+              alt="About image"
               className="lg:w-44 lg:h-16"
             />
             <button
               className="rounded-full w-14 h-14 bg-[#F2E961] border-4 border-black flex items-center justify-center cursor-pointer lg:w-20 lg:h-20 hover:scale-105 transition"
               onClick={() => router.push("/About")}
+              aria-label="redirect About"
             >
               <ArrowUpRight
                 strokeWidth={2.5}

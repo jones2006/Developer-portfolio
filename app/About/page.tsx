@@ -61,6 +61,7 @@ const About = () => {
                 behavior: "smooth",
               });
             }}
+            aria-label="Scroll page"
           >
             <ArrowUp color="black" strokeWidth={2} className="lg:w-8 lg:h-8" />
             <span className="space font-bold text-black text-sm lg:text-xl">

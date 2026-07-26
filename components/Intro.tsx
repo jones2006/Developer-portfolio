@@ -8,7 +8,7 @@ export default function Intro({ onFinish }: { onFinish: () => void }) {
   const [clicked, setClicked] = useState(false);
 
   return (
-    <div className="fixed inset-0 z-[9999] overflow-hidden">
+    <div className="fixed inset-0 z-9999 overflow-hidden">
       {/* Background Split Layout */}
       {!clicked && (
         <>
@@ -30,12 +30,14 @@ export default function Intro({ onFinish }: { onFinish: () => void }) {
               alt="no image"
               width={120}
               height={120}
+              priority
             />
             <Image
               src="/icons/arrow.svg"
               alt="no image"
               width={20}
               height={20}
+              priority
             />
             <motion.img
               src="/icons/circle.webp"
