@@ -6,6 +6,7 @@ import Image from "next/image";
 
 export default function Intro({ onFinish }: { onFinish: () => void }) {
   const [clicked, setClicked] = useState(false);
+  const MotionImage = motion(Image);
 
   return (
     <div className="fixed inset-0 z-9999 overflow-hidden">
@@ -19,32 +20,38 @@ export default function Intro({ onFinish }: { onFinish: () => void }) {
           <div className="absolute bottom-0 left-0 w-full h-1/2 bg-white" />
 
           {/* Center Logo */}
-          <div
-            className="absolute inset-0 flex flex-col gap-2 items-center justify-center  cursor-pointer"
-            onClick={() => setClicked(true)}
-            // @ts-ignore
-            onTap={() => setClicked(true)}
-          >
-            <Image
-              src="/icons/Click here.svg"
-              alt="Click here indicator"
-              width={120}
-              height={120}
-            />
-            <Image
-              src="/icons/arrow.svg"
-              alt="Arrow pointing downward"
-              width={20}
-              height={20}
-            />
-            <motion.img
-              src="/icons/circle.webp"
-              alt="logo"
+          <div>
+            <button
+              type="button"
               onClick={() => setClicked(true)}
-              animate={{ rotate: 360 }}
-              transition={{ repeat: Infinity, duration: 4, ease: "linear" }}
-              className="w-42 h-42 cursor-pointer"
-            />
+              aria-label="Start portfolio"
+              className="absolute inset-0 flex flex-col items-center justify-center cursor-pointer bg-transparent border-0 p-0"
+            >
+              <Image
+                src="/icons/Click here.svg"
+                alt=""
+                aria-hidden="true"
+                width={120}
+                height={120}
+              />
+              <Image
+                src="/icons/arrow.svg"
+                alt=""
+                aria-hidden="true"
+                width={20}
+                height={20}
+              />
+              <MotionImage
+                src="/icons/circle.webp"
+                alt="logo"
+                onClick={() => setClicked(true)}
+                animate={{ rotate: 360 }}
+                transition={{ repeat: Infinity, duration: 4, ease: "linear" }}
+                className="w-42 h-42 cursor-pointer"
+                width={168}
+                height={168}
+              />
+            </button>
           </div>
         </>
       )}
