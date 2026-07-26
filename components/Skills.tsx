@@ -45,7 +45,7 @@ const Skills = () => {
               <Image
                 width={30}
                 height={20}
-                src="/icons/ps.png"
+                src="/icons/ps.webp"
                 alt="no image"
               />
             </div>
@@ -150,7 +150,7 @@ const Skills = () => {
               <Image
                 width={60}
                 height={60}
-                src="/icons/python.png"
+                src="/icons/python.webp"
                 alt="no image"
                 className="transition-transform duration-2000 ease-in-out 
                 hover-[transform:rotateZ(360deg)]"

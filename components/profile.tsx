@@ -8,14 +8,14 @@ const Profile = () => {
         <Image
           width={520}
           height={520}
-          src="/icons/profile.png"
+          src="/icons/profile.webp"
           alt="no image"
           className=""
         />
         <Image
           width={100}
           height={100}
-          src="/icons/circle.png"
+          src="/icons/circle.webp"
           alt="no image"
           className="absolute right-5 bottom-0 mt-4 animate-spin [animation-duration:8s] z-0 cursor-pointer hover:scale-105 transition"
         />

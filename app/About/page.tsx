@@ -23,7 +23,7 @@ const About = () => {
           <Image
             width={130}
             height={130}
-            src="/icons/about.png"
+            src="/icons/about.webp"
             alt="no image"
             className="pt-6 lg:w-64 lg:h-28 lg:mt-3 md:w-52 md:h-24 "
           />

@@ -37,14 +37,14 @@ const Home = () => {
               <Image
                 width={520}
                 height={520}
-                src="/icons/profile.png"
+                src="/icons/profile.webp"
                 alt="no image"
                 className="mr-4"
               />
               <Image
                 width={100}
                 height={100}
-                src="/icons/circle.png"
+                src="/icons/circle.webp"
                 alt="no image"
                 className="absolute right-5 bottom-0 mt-4 animate-spin [animation-duration:8s] z-0 cursor-pointer hover:scale-105 transition"
               />
@@ -79,7 +79,7 @@ const Home = () => {
             <Image
               width={120}
               height={120}
-              src="/icons/about.png"
+              src="/icons/about.webp"
               alt="no image"
               className="lg:w-44 lg:h-16"
             />

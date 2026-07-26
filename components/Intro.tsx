@@ -38,7 +38,7 @@ export default function Intro({ onFinish }: { onFinish: () => void }) {
               height={20}
             />
             <motion.img
-              src="/icons/circle.png"
+              src="/icons/circle.webp"
               alt="logo"
               onClick={() => setClicked(true)}
               animate={{ rotate: 360 }}

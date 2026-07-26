@@ -14,7 +14,7 @@ const Contact = () => {
           <Image
             width={150}
             height={150}
-            src="/icons/connect.png"
+            src="/icons/connect.webp"
             alt="no image"
             className="lg:w-64 lg:h-20"
           />
@@ -60,7 +60,7 @@ const Contact = () => {
           <Image
             width={120}
             height={120}
-            src="/icons/projects.png"
+            src="/icons/projects.webp"
             alt="no image"
             className="lg:w-44 lg:h-16"
           />

@@ -10,7 +10,7 @@ export default function UI() {
   const projects = [
     {
       id: 1,
-      img: "/projects-ui/kiosk ui.png",
+      img: "/projects-ui/kiosk ui.webp",
       border: "#F2E961",
       url: "https://www.figma.com/community/file/1497969269675579774/kiosk-ui-ux-case-study",
       title: "kiosk ui Case study",
@@ -19,7 +19,7 @@ export default function UI() {
     },
     {
       id: 2,
-      img: "/projects-ui/women app ui.png",
+      img: "/projects-ui/women app ui.webp",
       border: "#F92A2A",
       url: "https://www.figma.com/community/file/1496090582789127252/women-safety-app-case-study",
       title: "women safety app case study",
@@ -28,7 +28,7 @@ export default function UI() {
     },
     {
       id: 3,
-      img: "/projects-ui/music app ui.png",
+      img: "/projects-ui/music app ui.webp",
       border: "#E8292C",
       url: "https://www.figma.com/community/file/1574439883256356311/music-streaming-app-ui",
       title: "music app ui",
@@ -37,7 +37,7 @@ export default function UI() {
     },
     {
       id: 4,
-      img: "/projects-ui/drone ui.png",
+      img: "/projects-ui/drone ui.webp",
       border: "#3269FF",
       url: "https://www.figma.com/community/file/1515989669455988517/drone-websiteui-design",
       title: "Drone site ui",
@@ -46,7 +46,7 @@ export default function UI() {
     },
     {
       id: 5,
-      img: "/projects-ui/love flame ui.png",
+      img: "/projects-ui/love flame ui.webp",
       border: "#FF4787",
       url: "https://www.figma.com/community/file/1523330784965191772/flames-app",
       title: "flames app ui",
@@ -55,7 +55,7 @@ export default function UI() {
     },
     {
       id: 6,
-      img: "/projects-ui/notes app ui.png",
+      img: "/projects-ui/notes app ui.webp",
       border: "#FFFFFF",
       url: "https://www.figma.com/community/file/1533804652686700707/notes-app",
       title: "notes app ui",
@@ -64,7 +64,7 @@ export default function UI() {
     },
     {
       id: 7,
-      img: "/projects-ui/daily planner ui.png",
+      img: "/projects-ui/daily planner ui.webp",
       border: "#3269FF",
       url: "https://www.figma.com/community/file/1546047848577768114/daily-planner-app",
       title: "daily planner app ui (To-do)",
@@ -73,7 +73,7 @@ export default function UI() {
     },
     {
       id: 8,
-      img: "/projects-ui/travel ui.png",
+      img: "/projects-ui/travel ui.webp",
       border: "#FA7436",
       url: "https://www.figma.com/community/file/1497893158448604474/travel-website-landing-page-ui-ux-case-study-and-design",
       title: "travel & tour landing page",
@@ -82,7 +82,7 @@ export default function UI() {
     },
     {
       id: 9,
-      img: "/projects-ui/tvk app ui.png",
+      img: "/projects-ui/tvk app ui.webp",
       border: "#F6CA36",
       url: "https://www.figma.com/community/file/1560913926321757212/my-tvk-app-redesign",
       title: "tvk app ui (Redesign)",
@@ -91,7 +91,7 @@ export default function UI() {
     },
     {
       id: 10,
-      img: "/projects-ui/movie app ui.png",
+      img: "/projects-ui/movie app ui.webp",
       border: "#7F28C8",
       url: "https://www.figma.com/community/file/1467196040256448930/show-buddy",
       title: "movie details app ui",

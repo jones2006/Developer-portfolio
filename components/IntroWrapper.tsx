@@ -32,7 +32,7 @@ export default function IntroWrapper({ children }: any) {
       {children}
 
       {showIntro && (
-        <div className="fixed inset-0 z-[9999]">
+        <div className="fixed inset-0 z-9999">
           <Intro onFinish={handleFinish} />
         </div>
       )}

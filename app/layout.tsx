@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { IBM_Plex_Sans, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import IntroWrapper from "@/components/IntroWrapper";
@@ -34,7 +35,12 @@ export default function RootLayout({
       <body
         className={`${ibmPlex.variable} ${spaceGrotesk.variable} antialiased`}
       >
-       <IntroWrapper>{children}</IntroWrapper>
+        <IntroWrapper>{children}</IntroWrapper>
+
+        {/* <Script
+          src="https://ai-ten-nu-93.vercel.app//chatBot.js"
+          data-owner-id="usr_134183247516008455"
+        ></Script> */}
       </body>
     </html>
   );

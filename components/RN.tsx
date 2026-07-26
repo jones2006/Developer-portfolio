@@ -85,7 +85,7 @@ export default function RN() {
   const projects = [
     {
       id: 1,
-      img: "/project-rn/love flame app.png",
+      img: "/project-rn/love flame app.webp",
       border: "#1E1E1E",
       url: "https://github.com/jones2006/Flames-app-mobile-app-",
       title: "love flame app",
@@ -94,7 +94,7 @@ export default function RN() {
     },
     {
       id: 2,
-      img: "/project-rn/weather app.png",
+      img: "/project-rn/weather app.webp",
       border: "#A459FF",
       url: "https://github.com/jones2006/weather-app",
       title: "weather app",
@@ -103,7 +103,7 @@ export default function RN() {
     },
     {
       id: 3,
-      img: "/project-rn/multi-tools app.png",
+      img: "/project-rn/multi-tools app.webp",
       border: "#FFFFFF",
       url: "https://github.com/jones2006/Multi-tool_App-",
       title: "multi-tools app",
@@ -112,7 +112,7 @@ export default function RN() {
     },
     {
       id: 4,
-      img: "/project-rn/signup page.png",
+      img: "/project-rn/signup page.webp",
       border: "#1E1E1E",
       url: "https://github.com/jones2006/login-signup-page-mobile-App-",
       title: "signup page",
@@ -121,7 +121,7 @@ export default function RN() {
     },
     {
       id: 5,
-      img: "/project-rn/credit app.png",
+      img: "/project-rn/credit app.webp",
       border: "#455A64",
       url: "https://github.com/jones2006/Credit-management-app",
       title: "credit management app (for students)",
@@ -130,7 +130,7 @@ export default function RN() {
     },
     {
       id: 6,
-      img: "/project-rn/Ai app.png",
+      img: "/project-rn/Ai app.webp",
       border: "#3269FF",
       url: "https://github.com/jones2006/Ai-app",
       title: "Ai app",
@@ -139,7 +139,7 @@ export default function RN() {
     },
     {
       id: 7,
-      img: "/project-rn/daily planner app.png",
+      img: "/project-rn/daily planner app.webp",
       border: "#A459FF",
       url: "https://github.com/jones2006/Daily-planner-app",
       title: "daily planner app",
@@ -148,7 +148,7 @@ export default function RN() {
     },
     {
       id: 8,
-      img: "/project-rn/movie app.png",
+      img: "/project-rn/movie app.webp",
       border: "#FFFFFF",
       url: "https://github.com/jones2006/show-buddy--",
       title: "movie app",
