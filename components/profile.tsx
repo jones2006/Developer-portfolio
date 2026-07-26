@@ -10,6 +10,7 @@ const Profile = () => {
           height={520}
           src="/icons/profile.webp"
           alt="Jones profile picture"
+          priority
         />
         <Image
           width={100}

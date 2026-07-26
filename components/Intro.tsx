@@ -27,17 +27,15 @@ export default function Intro({ onFinish }: { onFinish: () => void }) {
           >
             <Image
               src="/icons/Click here.svg"
-              alt="no image"
+              alt="Click here indicator"
               width={120}
               height={120}
-              priority
             />
             <Image
               src="/icons/arrow.svg"
-              alt="no image"
+              alt="Arrow pointing downward"
               width={20}
               height={20}
-              priority
             />
             <motion.img
               src="/icons/circle.webp"
