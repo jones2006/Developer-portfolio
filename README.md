@@ -49,6 +49,7 @@ The goal of this portfolio is to present my work in a clean, modern, and profess
 - Skills Section
 - Projects Section
 - Contact Section
+- NotFound page (has a snake game)
 
 ---
 
