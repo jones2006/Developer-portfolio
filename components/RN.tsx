@@ -10,6 +10,15 @@ export default function RN() {
   const projects = [
     {
       id: 1,
+      img: "/project-rn/first.webp",
+      border: "#ffffff",
+      url: "https://github.com/jones2006/Portfolio",
+      title: "My first portfolio",
+      Description:
+        "This is my first portfolio, marking the beginning of my web development journey. 🚀",
+    },
+    {
+      id: 2,
       img: "/project-rn/love flame app.webp",
       border: "#1E1E1E",
       url: "https://github.com/jones2006/Flames-app-mobile-app-",
@@ -18,7 +27,7 @@ export default function RN() {
         "Fun relationship compatibility app built with interactive UI and smooth animations.",
     },
     {
-      id: 2,
+      id: 3,
       img: "/project-rn/weather app.webp",
       border: "#A459FF",
       url: "https://github.com/jones2006/weather-app",
@@ -27,7 +36,7 @@ export default function RN() {
         "Real-time weather application with API integration and dynamic UI updates.",
     },
     {
-      id: 3,
+      id: 4,
       img: "/project-rn/movie app.webp",
       border: "#FFFFFF",
       url: "https://github.com/jones2006/show-buddy--",
@@ -37,7 +46,7 @@ export default function RN() {
     },
 
     {
-      id: 4,
+      id: 5,
       img: "/project-rn/signup page.webp",
       border: "#1E1E1E",
       url: "https://github.com/jones2006/login-signup-page-mobile-App-",
@@ -46,7 +55,7 @@ export default function RN() {
         "Modern authentication UI with login and signup flow implementation.",
     },
     {
-      id: 5,
+      id: 6,
       img: "/project-rn/credit app.webp",
       border: "#455A64",
       url: "https://github.com/jones2006/Credit-management-app",
@@ -55,7 +64,7 @@ export default function RN() {
         "College mini project focused on tracking and managing student credit scores.",
     },
     {
-      id: 6,
+      id: 7,
       img: "/project-rn/Ai app.webp",
       border: "#3269FF",
       url: "https://github.com/jones2006/Ai-app",
@@ -64,7 +73,7 @@ export default function RN() {
         "AI-powered mobile app built as an internship assignment with smart interaction features.",
     },
     {
-      id: 7,
+      id: 8,
       img: "/project-rn/daily planner app.webp",
       border: "#A459FF",
       url: "https://github.com/jones2006/Daily-planner-app",
@@ -73,7 +82,7 @@ export default function RN() {
         "Task and schedule management app designed for productivity and simplicity.",
     },
     {
-      id: 8,
+      id: 9,
       img: "/project-rn/multi-tools app.webp",
       border: "#FFFFFF",
       url: "https://github.com/jones2006/Multi-tool_App-",
@@ -82,7 +91,7 @@ export default function RN() {
         "Utility app combining multiple everyday tools into one clean mobile interface.",
     },
     {
-      id: 9,
+      id: 10,
       img: "/project-rn/school.webp",
       border: "#4F8EF7",
       url: "https://github.com/jones2006/",
@@ -91,7 +100,7 @@ export default function RN() {
         "A school management app that simplifies attendance, student records, academic performance, timetables, and communication between teachers, students, and parents. 🎓",
     },
     {
-      id: 10,
+      id: 11,
       img: "/project-rn/color app ui.webp",
       border: "#FFFFFF",
       url: "https://github.com/jones2006/ColorCraft",
@@ -100,7 +109,7 @@ export default function RN() {
         "A mobile app concept designed to help creators generate palettes, extract colors, create gradients, and explore color theory—all in one place.",
     },
     {
-      id: 11,
+      id: 12,
       img: "/project-rn/swingo-web.webp",
       border: "#536DE8",
       url: "https://swingo-eta.vercel.app/",
@@ -109,7 +118,7 @@ export default function RN() {
         "Swingo is a physics-based desktop companion with interactive charms and quick utility controls. 🎮",
     },
     {
-      id: 12,
+      id: 13,
       img: "/project-rn/Wingo.webp",
       border: "#536DE8",
       url: "https://github.com/jones2006/WingGo",
@@ -118,7 +127,7 @@ export default function RN() {
         "WingGo is an Android companion featuring a flying mascot, floating controls, and notification reactions, built with React Native, Expo, and Kotlin.",
     },
     {
-      id: 13,
+      id: 14,
       img: "/project-rn/expo-extension.webp",
       border: "#1ECEFD",
       url: "https://github.com/jones2006/ExpoDeck---VS-code-extension",
