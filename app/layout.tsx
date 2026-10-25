@@ -36,11 +36,6 @@ export default function RootLayout({
         className={`${ibmPlex.variable} ${spaceGrotesk.variable} antialiased`}
       >
         <IntroWrapper>{children}</IntroWrapper>
-
-        {/* <Script
-          src="https://ai-ten-nu-93.vercel.app//chatBot.js"
-          data-owner-id="usr_134183247516008455"
-        ></Script> */}
       </body>
     </html>
   );

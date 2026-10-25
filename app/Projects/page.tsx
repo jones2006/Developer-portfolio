@@ -30,8 +30,9 @@ const Projects = () => {
           <UI />
           {/* react native projects */}
           <p className="text-black space font-bold text-[1.3rem] pt-4 lg:text-3xl">
-            <span className="text-[#23A095]">REACT</span>{" "}
-            <span className="text-[#FF6E6D]">NATIVE</span> PROJECTS
+            <span className="text-[#23A095]">WEB</span>{" "}
+            <span className="text-[#5F4FE6]">&</span>{" "}
+            <span className="text-[#FF6E6D]">APP</span> PROJECTS
           </p>
 
           <RN />

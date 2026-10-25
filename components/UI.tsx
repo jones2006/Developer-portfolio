@@ -28,12 +28,12 @@ export default function UI() {
     },
     {
       id: 3,
-      img: "/projects-ui/music app ui.webp",
-      border: "#E8292C",
-      url: "https://www.figma.com/community/file/1574439883256356311/music-streaming-app-ui",
-      title: "music app ui",
+      img: "/projects-ui/travel ui.webp",
+      border: "#FA7436",
+      url: "https://www.figma.com/community/file/1497893158448604474/travel-website-landing-page-ui-ux-case-study-and-design",
+      title: "travel & tour landing page",
       Description:
-        "Modern music streaming app with clean navigation and immersive UI.",
+        "Modern travel landing page designed for high visual engagement.",
     },
     {
       id: 4,
@@ -55,6 +55,15 @@ export default function UI() {
     },
     {
       id: 6,
+      img: "/projects-ui/movie app ui.webp",
+      border: "#7F28C8",
+      url: "https://www.figma.com/community/file/1467196040256448930/show-buddy",
+      title: "movie details app ui",
+      Description:
+        "Movie discovery app UI with clean layout and rich content sections.",
+    },
+    {
+      id: 7,
       img: "/projects-ui/notes app ui.webp",
       border: "#FFFFFF",
       url: "https://www.figma.com/community/file/1533804652686700707/notes-app",
@@ -63,25 +72,7 @@ export default function UI() {
         "Minimal note-taking app focused on productivity and clarity.",
     },
     {
-      id: 7,
-      img: "/projects-ui/daily planner ui.webp",
-      border: "#3269FF",
-      url: "https://www.figma.com/community/file/1546047848577768114/daily-planner-app",
-      title: "daily planner app ui (To-do)",
-      Description:
-        "Task management app with clean dashboard and intuitive workflow.",
-    },
-    {
       id: 8,
-      img: "/projects-ui/travel ui.webp",
-      border: "#FA7436",
-      url: "https://www.figma.com/community/file/1497893158448604474/travel-website-landing-page-ui-ux-case-study-and-design",
-      title: "travel & tour landing page",
-      Description:
-        "Modern travel landing page designed for high visual engagement.",
-    },
-    {
-      id: 9,
       img: "/projects-ui/tvk app ui.webp",
       border: "#F6CA36",
       url: "https://www.figma.com/community/file/1560913926321757212/my-tvk-app-redesign",
@@ -90,66 +81,91 @@ export default function UI() {
         "Redesigned mobile app with improved usability and modern UI system.",
     },
     {
-      id: 10,
-      img: "/projects-ui/movie app ui.webp",
-      border: "#7F28C8",
-      url: "https://www.figma.com/community/file/1467196040256448930/show-buddy",
-      title: "movie details app ui",
+      id: 9,
+      img: "/projects-ui/music app ui.webp",
+      border: "#E8292C",
+      url: "https://www.figma.com/community/file/1574439883256356311/music-streaming-app-ui",
+      title: "music app ui",
       Description:
-        "Movie discovery app UI with clean layout and rich content sections.",
+        "Modern music streaming app with clean navigation and immersive UI.",
+    },
+    {
+      id: 10,
+      img: "/projects-ui/daily planner ui.webp",
+      border: "#3269FF",
+      url: "https://www.figma.com/community/file/1546047848577768114/daily-planner-app",
+      title: "daily planner app ui (To-do)",
+      Description:
+        "Task management app with clean dashboard and intuitive workflow.",
+    },
+    {
+      id: 11,
+      img: "/projects-ui/color app ui.webp",
+      border: "#D14EAA",
+      url: "https://www.figma.com/community/file/1670848735763055158/colorcraft-app",
+      title: "ColorCraft app ui",
+      Description:
+        "A mobile app concept designed to help creators generate palettes, extract colors, create gradients, and explore color theory—all in one place.",
     },
   ];
   return (
     <div className="w-full py-4">
       {/* MOBILE VIEW */}
       <div className="flex gap-4 overflow-x-auto px-6 md:hidden scrollbar-hide">
-        {projects.slice(0, visibleCount).map((project) => (
-          <div key={project.id} className="min-w-[256px] h-44">
-            <div
-              onClick={() => {
-                if (activeId === project.id) {
-                  router.push(project.url);
-                } else {
-                  setActiveId(project.id);
-                }
-              }}
-              className="relative overflow-hidden rounded-lg cursor-pointer"
-            >
-              {/* Project Image */}
-              <Image
-                width={256}
-                height={176}
-                src={project.img}
-                alt="project"
-                style={{ borderColor: project.border }}
-                className="w-full h-44 object-cover border-l-4 border-b-4"
-              />
-
-              {/* Tap Reveal Overlay */}
+        {[...projects]
+          .reverse()
+          .slice(0, visibleCount)
+          .map((project) => (
+            <div key={project.id} className="min-w-[256px] h-44">
               <div
-                className={`absolute inset-0 bg-black/60 text-white flex flex-col justify-end p-4 transition-transform duration-500 ease-in-out ${
-                  activeId === project.id ? "translate-y-0" : "translate-y-full"
-                } `}
+                onClick={() => {
+                  if (activeId === project.id) {
+                    router.push(project.url);
+                  } else {
+                    setActiveId(project.id);
+                  }
+                }}
+                className="relative overflow-hidden rounded-lg cursor-pointer"
               >
-                <h3 className="text-base font-bold">{project.title}</h3>
-                <p className="text-xs mt-1 opacity-80">{project.Description}</p>
+                {/* Project Image */}
+                <Image
+                  width={256}
+                  height={176}
+                  src={project.img}
+                  alt="project"
+                  style={{ borderColor: project.border }}
+                  className="w-full h-44 object-cover border-l-4 border-b-4"
+                />
 
-                {/* Indication Section */}
-                {activeId === project.id && (
-                  <div className="mt-3 flex items-center justify-between">
-                    <span className="text-xs opacity-70 animate-pulse">
-                      Tap again to view
-                    </span>
+                {/* Tap Reveal Overlay */}
+                <div
+                  className={`absolute inset-0 bg-black/60 text-white flex flex-col justify-end p-4 transition-transform duration-500 ease-in-out ${
+                    activeId === project.id
+                      ? "translate-y-0"
+                      : "translate-y-full"
+                  } `}
+                >
+                  <h3 className="text-base font-bold">{project.title}</h3>
+                  <p className="text-xs mt-1 opacity-80">
+                    {project.Description}
+                  </p>
 
-                    <div className="w-8 h-8 rounded-full bg-[#F2E961] border-2 border-black flex items-center justify-center animate-bounce text-black font-bold">
-                      →
+                  {/* Indication Section */}
+                  {activeId === project.id && (
+                    <div className="mt-3 flex items-center justify-between">
+                      <span className="text-xs opacity-70 animate-pulse">
+                        Tap again to view
+                      </span>
+
+                      <div className="w-8 h-8 rounded-full bg-[#F2E961] border-2 border-black flex items-center justify-center animate-bounce text-black font-bold">
+                        →
+                      </div>
                     </div>
-                  </div>
-                )}
+                  )}
+                </div>
               </div>
             </div>
-          </div>
-        ))}
+          ))}
 
         {visibleCount < projects.length && (
           <button
@@ -163,31 +179,34 @@ export default function UI() {
 
       {/* DESKTOP VIEW */}
       <div className="hidden md:grid grid-cols-3 gap-6 px-20">
-        {projects.slice(0, visibleCount).map((project) => (
-          <div key={project.id} className="w-full">
-            <a href={project.url} target="_blank">
-              <div className="relative group overflow-hidden rounded-lg">
-                {/* Project Image */}
-                <Image
-                  width={350}
-                  height={250}
-                  src={project.img}
-                  alt="project"
-                  style={{ borderColor: project.border }}
-                  className="w-full h-60 object-cover border-l-4 border-b-4 transition duration-500 group-hover:scale-110"
-                />
+        {[...projects]
+          .reverse()
+          .slice(0, visibleCount)
+          .map((project) => (
+            <div key={project.id} className="w-full">
+              <a href={project.url} target="_blank">
+                <div className="relative group overflow-hidden rounded-lg">
+                  {/* Project Image */}
+                  <Image
+                    width={350}
+                    height={250}
+                    src={project.img}
+                    alt="project"
+                    style={{ borderColor: project.border }}
+                    className="w-full h-60 object-cover border-l-4 border-b-4 transition duration-500 group-hover:scale-110"
+                  />
 
-                {/* Hover Overlay */}
-                <div className="absolute inset-0 bg-black/50 text-white flex flex-col justify-end p-5 translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out ">
-                  <h3 className="text-lg font-bold">{project.title}</h3>
-                  <p className="text-sm mt-2 opacity-80">
-                    {project.Description}
-                  </p>
+                  {/* Hover Overlay */}
+                  <div className="absolute inset-0 bg-black/50 text-white flex flex-col justify-end p-5 translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out ">
+                    <h3 className="text-lg font-bold">{project.title}</h3>
+                    <p className="text-sm mt-2 opacity-80">
+                      {project.Description}
+                    </p>
+                  </div>
                 </div>
-              </div>
-            </a>
-          </div>
-        ))}
+              </a>
+            </div>
+          ))}
       </div>
 
       {/* DESKTOP SEE MORE BUTTON */}
