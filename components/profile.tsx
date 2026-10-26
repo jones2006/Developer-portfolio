@@ -26,6 +26,7 @@ const Profile = () => {
           <p className="text-left space font-bold text-black text-[0.85rem] px-2 py-2 lg:text-2xl lg:px-10 md:text-2xl md:px-10 md:py-6">
             Hi, I’m Jones — a{" "}
             <span className="text-[#5F4FE6]">UI/UX Designer</span> and {""}
+            <span className="text-[#23A095]">Web / </span>
             <span className="text-[#F14E1E]">App Developer</span>
             {""} who loves building bold, functional, and user-focused digital
             products.

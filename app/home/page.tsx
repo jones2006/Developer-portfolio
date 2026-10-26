@@ -62,8 +62,8 @@ const Home = () => {
               </div>
 
               <span className="text-black text-base space px-4 w-[94%] text-center lg:text-3xl lg:px-0 lg:text-left lg:w-[80%]">
-                UI/UX DESIGNER & APP DEVELOPER I DESIGN BOLD INTERFACES & BUILD
-                REAL PRODUCTS
+                UI/UX DESIGNER & WEB / APP DEVELOPER I DESIGN BOLD INTERFACES &
+                BUILD REAL PRODUCTS
               </span>
               <button
                 className="bg-[#F2E961] border-b-4 border-r-2 border-black w-36 h-12 rounded-2xl hover:scale-105 transition"
