@@ -44,11 +44,13 @@ export default function LoveFlamePrivacyPolicy() {
             className="rounded-2xl border-[3px] border-black
             bg-[#D9C7FF] p-6 shadow-[4px_4px_0_#000]"
           >
-            <h2 className="text-2xl font-black">2. Information and names</h2>
+            <h2 className="text-2xl font-black">2. Information We Collect</h2>
             <p className="mt-3 leading-7">
-              The app may use the names entered by users to calculate a FLAMES
-              result. These names should not be treated as verified personal
-              information.
+              Love Flame does not collect or store the names entered by users.
+              The names are processed locally on the user's device to calculate
+              the FLAMES result and are not transmitted to our servers. The app
+              does not require users to create an account or provide personal
+              information to use its core FLAMES feature.
             </p>
 
             {/* Verify this statement against your actual app code. */}
@@ -66,10 +68,22 @@ export default function LoveFlamePrivacyPolicy() {
           >
             <h2 className="text-2xl font-black">3. Data sharing</h2>
             <p className="mt-3 leading-7">
-              Describe whether the app shares information with any third
-              parties, including analytics, advertising, or crash-reporting
-              providers. If none are used, state that only after verifying the
-              app dependencies.
+              Love Flame does not share the names entered by users with third
+              parties.
+            </p>
+          </section>
+
+          <section
+            className="rounded-2xl border-[3px] border-black
+            bg-[#D9C7FF] p-6 shadow-[4px_4px_0_#000]"
+          >
+            <h2 className="text-2xl font-black">
+              4. Data Storage and Security
+            </h2>
+            <p className="mt-3 leading-7">
+              The names entered for a FLAMES calculation are processed locally
+              and are not saved by the app. No server-side storage is used for
+              this feature.
             </p>
           </section>
 
@@ -79,9 +93,8 @@ export default function LoveFlamePrivacyPolicy() {
           >
             <h2 className="text-2xl font-black">4. Children&apos;s privacy</h2>
             <p className="mt-3 leading-7">
-              Explain the intended audience for the app and how information
-              relating to children is handled. Do not claim that the app is
-              designed for children unless that is accurate.
+              Love Flame is intended for entertainment purposes. The app does
+              not knowingly collect personal information from children.
             </p>
           </section>
 
@@ -91,9 +104,9 @@ export default function LoveFlamePrivacyPolicy() {
           >
             <h2 className="text-2xl font-black">5. Changes to this policy</h2>
             <p className="mt-3 leading-7">
-              This policy may be updated when the app&apos;s features or data
-              practices change. The latest version will be published on this
-              page with an updated date.
+              This Privacy Policy may be updated if the app's features or data
+              practices change. Any updates will be published on this page with
+              a revised date.
             </p>
           </section>
 
